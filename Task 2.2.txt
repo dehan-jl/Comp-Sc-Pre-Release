@@ -1,0 +1,19 @@
+Sorted = False
+
+WHILE Sorted = False
+	FOR Index <- 1 To 39
+		Changes = 0
+		IF StudentName[Index+1] > StudentName[Index]
+			THEN
+				Temp = StudentName[Index]
+				StudentName[Index] = StudentName[Index+1]
+				StudentName[Index+1] = Temp
+				Changes = Changes + 1
+		ENDIF
+	ENDFOR
+	IF Changes = 0
+		THEN
+			Sorted = True
+	ENDIF
+ENDWHILE
+	

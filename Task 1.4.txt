@@ -1,0 +1,11 @@
+IF Temperature > 25
+	THEN
+		OUTPUT "Hot"
+	ELSE
+		IF Temperature < 20
+			THEN
+				OUTPUT "Cold"
+			ELSE
+				OUTPUT "Just Right"
+		ENDIF
+ENDIF

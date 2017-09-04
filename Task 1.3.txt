@@ -1,0 +1,6 @@
+Temp:	Output:
+10		Cold
+20		Cold
+22		Just Right
+25		Just Right
+28		Hot

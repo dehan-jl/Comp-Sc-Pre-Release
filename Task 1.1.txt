@@ -1,0 +1,18 @@
+OUTPUT "Date:"
+INPUT day
+IF day = "monday" 
+	THEN:
+		OUTPUT "Red Socks"
+	ELSE:
+		IF day = "Tuesday" 
+			THEN:
+				OUTPUT "Blue Socks"
+			ELSE:
+				IF day = "Wednesday" 
+					THEN:
+						OUTPUT "Yellow Socks"
+					ELSE:
+						OUTPUT "Sandals"
+				ENDIF
+		ENDIF
+ENDIF

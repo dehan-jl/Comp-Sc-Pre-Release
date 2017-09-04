@@ -1,0 +1,8 @@
+OUTPUT "Date:"
+INPUT day
+CASE OF day
+	"Monday"	:	OUTPUT "Red Socks"
+	"Tuesday"	:	OUTPUT "Blue Socks"
+	"Wednesday"	:	OUTPUT "Yellow Socks"
+	OTHERWISE 	 	OUTPUT "Sandals"
+ENDCASE
